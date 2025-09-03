@@ -108,3 +108,62 @@ header {
   background-color: #32CD32;
   color: gray;
 }
+
+/* Login */
+.login-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: #1e1e2f;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-container h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #1E90FF;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  background: #2a2a3d;
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #39FF14;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1E90FF;
+  color: #fff;
+}
+
+.message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
